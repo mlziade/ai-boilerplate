@@ -1,0 +1,51 @@
+{
+  "dangerouslySkipPermissions": false,
+  "model": "claude-sonnet-4-6",
+  "autoMemoryEnabled": true,
+  "permissions": {
+    "allow": [
+      "Read",
+      "Read(*.example*)",
+      "Edit(*.example*)",
+      "Write(*.example*)",
+      "Bash(curl http://localhost*)",
+      "Bash(curl https://localhost*)",
+      "Bash(curl http://127.0.0.1*)",
+      "Bash(curl https://127.0.0.1*)",
+      "Bash(git fetch*)",
+      "Bash(git pull*)",
+      "Bash(git checkout *)",
+      "Bash(git clone *)",
+      "Bash(git add *)",
+      "Bash(git diff*)",
+      "Bash(git branch)",
+      "Bash(git branch -r)",
+      "Bash(git branch -a)",
+      "Bash(git branch *)",
+      "Bash(git log*)",
+      "Bash(git commit --amend*)",
+      "Bash(git commit *)",
+      "Bash(mkdir *)",
+      "Bash(ls*)",
+      "Bash(pwd)",
+      "Bash(cat *)"
+    ],
+    "deny": [
+      "Read(.env*)",
+      "Edit(.env*)",
+      "Write(.env*)",
+      "Bash(rm -rf *)",
+      "Bash(git push --force*)",
+      "Bash(git reset --hard*)",
+      "Bash(git clean *)",
+      "Bash(sudo *)",
+      "Bash(git branch -d *)",
+      "Bash(git branch -D *)",
+      "Bash(git push origin --delete *)"
+    ]
+  },
+  "attribution": {
+    "commit": "",
+    "pr": ""
+  }
+}

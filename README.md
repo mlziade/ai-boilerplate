@@ -1,16 +1,16 @@
-# mlziade-boilerplate
+# ai-boilerplate
 
-My personal boilerplate for developing with AI and Claude Code. This repo centralizes skills, agents, preferences, and tech-stack starter knowledge so all my new projects start with a solid foundation.
+My personal boilerplate for developing with AI and Claude Code. This repo centralizes skills, agents, preferences, and tech-stack starter knowledge for a solid foundation.
 
 ## What's in here
 
 | Directory | Purpose |
 |---|---|
-| `.claude/skills/` | Custom slash commands — repeatable workflows I invoke with `/skill-name` |
-| `.claude/agents/` | Custom sub-agent definitions with specialized roles and tool access |
-| `.claude/hooks/` | Shell scripts triggered at Claude Code lifecycle events |
-| `knowledge/` | Per-stack CLAUDE.md files I import into new projects |
-| `CLAUDE.md` | My personal preferences, loaded in every session |
+| `.claude/skills/` | Skills list |
+| `.claude/agents/` | Sub-agent definitions |
+| `.claude/hooks/` | Lifecycle event hooks |
+| `knowledge/` | Per-stack CLAUDE.md files |
+| `CLAUDE.md` | Personal preferences |
 
 ## Concepts
 
@@ -23,6 +23,13 @@ My personal boilerplate for developing with AI and Claude Code. This repo centra
 **[Auto Memory](docs/auto-memory.md)** — Claude writes its own notes across sessions (build commands, debugging insights, preferences it discovers). No setup needed; runs automatically per repository.
 
 **[Tech-stack Knowledge](docs/tech-stack-knowledge.md)** — CLAUDE.md files in `knowledge/` that capture conventions and best practices for specific stacks. Import them into a new project so Claude starts informed.
+
+## References
+
+A lot of the content in this repo was choosen or inspired from what i've seen online. I will try to add them as references below:
+
+- [mattpocock/skills](https://github.com/mattpocock/skills) — Matt Pocock's collection of reusable AI agent skills targeting common failure modes like misalignment, verbosity, and architectural decay.
+- [poteto/pstack](https://github.com/cursor/plugins/tree/main/pstack) — A plugin collection of engineering playbooks and principles from poteto @ vercel.
 
 ## Resources
 

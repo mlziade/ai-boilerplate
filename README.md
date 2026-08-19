@@ -30,6 +30,7 @@ A lot of the content in this repo was choosen or inspired from what i've seen on
 
 - [mattpocock/skills](https://github.com/mattpocock/skills) — Matt Pocock's collection of reusable AI agent skills targeting common failure modes like misalignment, verbosity, and architectural decay.
 - [poteto/pstack](https://github.com/cursor/plugins/tree/main/pstack) — A plugin collection of engineering playbooks and principles from poteto @ vercel.
+- [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) — Vercel's official library of specialized agent skills covering React/Next.js best practices, deployment, and code optimization.
 
 ## Resources
 

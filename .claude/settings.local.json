@@ -1,7 +1,9 @@
 {
-  "dangerouslySkipPermissions": false,
-  "model": "claude-sonnet-4-6",
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "dangerouslySkipPermissions": true,
+  "model": "",
   "autoMemoryEnabled": true,
+  "defaultShell": "bash",
   "permissions": {
     "allow": [
       "Read",
